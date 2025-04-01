@@ -6,10 +6,13 @@ import CartWidget from "./CartWidget";
 const NavBar = () => {
     return (
         <nav>
-            <img src={logo} alt="Logo de la tienda" width="550" />
+            <img src={logo} alt="Logo de Reset Store" width="550" />
             <ul>
                 <li><Link to="/">Inicio</Link></li>
-                <li><Link to="/productos">Productos</Link></li>
+                <li><Link to="/catalogo">Catálogo</Link></li>
+                <li><Link to="/categoria/Adidas">Adidas</Link></li>
+                <li><Link to="/categoria/Nike">Nike</Link></li>
+                <li><Link to="/categoria/Vans">Vans</Link></li>
                 <li><Link to="/contacto">Contacto</Link></li>
             </ul>
             <CartWidget />
